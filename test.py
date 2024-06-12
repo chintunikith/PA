@@ -20,7 +20,7 @@ def load_europe_data():
 # Load Excel data for USA
 @st.cache_data
 def load_usa_data():
-    df = pd.read_excel("USA_MA.xlsx")  # Read USA Excel file
+    df = pd.read_excel("USA_MA_NEW.xlsx")  # Read USA Excel file
     df["Date of decision"] = pd.to_datetime(df["Date of decision"], errors='coerce')  # Parse dates
     return df
 
