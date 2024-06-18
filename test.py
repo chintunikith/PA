@@ -4,7 +4,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 # Title and header
-st.header("Roche Prism Access", divider = "gray")
+st.header("R&R Data Explorer", divider = "gray")
 # st.header("Market Authorization and Reimbursement Bodies", divider="gray")
 
 # Function to load data
